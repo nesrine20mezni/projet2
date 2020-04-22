@@ -11,12 +11,13 @@
 <h1> vous avez fournit les informations suivantes :</h1><br>
 
 
-<%!String nom; %>
+  <%!String nom; %>
 <%!String email; %>
-<% nom = request.getParameter("t1");email= request.getParameter("t2");%> 
+<% nom = request.getParameter("t1");
+email= request.getParameter("t2");%> 
 <%=nom %>
 <%=email %>
- 
+
 
 </body>
 </html>
